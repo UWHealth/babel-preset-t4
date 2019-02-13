@@ -1,0 +1,41 @@
+{
+  "name": "@uwhealth/babel-preset-t4",
+  "version": "1.0.0",
+  "description": "A Babel preset for TerminalFour Site Manager",
+  "main": "index.js",
+  "scripts": {
+    "patch": "npm version patch && npm publish",
+    "minor": "npm version minor && npm publish",
+    "postversion": "git push origin HEAD v$npm_package_version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UWHealth/babel-preset-t4.git"
+  },
+  "keywords": [
+    "babel-preset",
+    "terminalfour",
+    "uwhealth"
+  ],
+  "author": "UW Health Web Center",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UWHealth/babel-preset-t4/issues"
+  },
+  "homepage": "https://github.com/UWHealth/babel-preset-t4#readme",
+  "peerDependencies": {
+    "@babel/core": "^7.x"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-arrow-functions": "^7.x",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "babel-plugin-dynamic-import-node": ">=2.2.0",
+    "babel-plugin-transform-es3-member-expression-literals": ">=6.22.0",
+    "babel-plugin-transform-es3-property-literals": ">=6.22.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2"
+  }
+}
