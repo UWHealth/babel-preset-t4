@@ -1,6 +1,6 @@
 {
   "name": "@uwhealth/babel-preset-t4",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Babel preset for TerminalFour Site Manager",
   "main": "index.js",
   "scripts": {
